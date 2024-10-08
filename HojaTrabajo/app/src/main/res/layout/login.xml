@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_image"
+    android:scaleType="centerCrop">
+
+    <!-- Imagen en la parte superior -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Logo de la aplicación"
+        android:scaleType="fitCenter"/>
+
+    <!-- Campo de correo electrónico con validación -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:importantForAccessibility="yes"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Campo de contraseña -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Botón de iniciar sesión -->
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white" />
+
+    <!-- Botón de registrarse -->
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registrarse"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/white" />
+
+    <!-- Botón de iniciar sesión con Google -->
+    <Button
+        android:id="@+id/googleSignInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iniciar_sesión_con_google"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/grey"
+        android:textColor="@color/white" />
+
+</LinearLayout>

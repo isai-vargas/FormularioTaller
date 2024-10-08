@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HojaTrabajo</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="iniciar_sesión_con_google">Inicio con Google</string>
+</resources>

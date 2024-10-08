@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Campo para ID -->
+        <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID" />
+
+        <!-- Campo para Fecha -->
+        <EditText
+            android:id="@+id/editTextFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha (YYYY-MM-DD)" />
+
+        <!-- Campo para Cliente -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cliente" />
+
+        <EditText
+            android:id="@+id/editTextNombreCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del Cliente" />
+
+        <EditText
+            android:id="@+id/editTextTelefonoCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono del Cliente" />
+
+        <EditText
+            android:id="@+id/editTextCorreoCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo del Cliente" />
+
+        <!-- Campo para Vehículo -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehículo" />
+
+        <EditText
+            android:id="@+id/editTextMarcaVehiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marca del Vehículo" />
+
+        <EditText
+            android:id="@+id/editTextModeloVehiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Modelo del Vehículo" />
+
+        <EditText
+            android:id="@+id/editTextAnoVehiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Año del Vehículo" />
+
+        <EditText
+            android:id="@+id/editTextNumeroPlaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de Placa" />
+
+        <!-- Campo para Mecánico -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mecánico" />
+
+        <EditText
+            android:id="@+id/editTextNombreMecanico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del Mecánico" />
+
+        <EditText
+            android:id="@+id/editTextIdEmpleadoMecanico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID del Empleado" />
+
+        <!-- Campo para Estado -->
+        <EditText
+            android:id="@+id/editTextEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estado" />
+
+        <!-- Campo para Fecha de Inicio -->
+        <EditText
+            android:id="@+id/editTextFechaInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de Inicio (YYYY-MM-DD)" />
+
+        <!-- Campo para Fecha de Finalización -->
+        <EditText
+            android:id="@+id/editTextFechaFinalizacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de Finalización (YYYY-MM-DD)" />
+
+        <!-- Botón para enviar datos -->
+        <Button
+            android:id="@+id/buttonEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar" />
+    </LinearLayout>
+
+</ScrollView>
